@@ -52,8 +52,7 @@ RUN echo '{\
         "port": ENV_MYSQL_PORT,\
         "user": "ENV_MYSQL_USER",\
         "password": "ENV_MYSQL_PASSWORD",\
-        "name": "ENV_MYSQL_DATABASE",\
-        "table_prefix": "Dio_"\
+        "name": "ENV_MYSQL_DATABASE"\
     }\
 }' > $HOME/alist/data/config.json
 
